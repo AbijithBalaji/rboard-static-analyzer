@@ -266,7 +266,10 @@ Each validator is based on actual firmware source code:
 Run the comprehensive test suite to verify analyzer functionality:
 
 ```bash
-# Run all tests
+# Run all tests with the comprehensive test runner
+ruby tests/test_runner.rb
+
+# Run individual tests
 ruby tests/test_modular_analyzer.rb
 ruby tests/test_i2c_validator.rb  
 ruby tests/test_spi_validator.rb

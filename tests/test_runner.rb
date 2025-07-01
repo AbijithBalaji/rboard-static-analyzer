@@ -3,8 +3,13 @@
 # Comprehensive test suite for RBoard Static Analyzer
 # Runs all tests and example analyses to verify functionality
 
+# Ensure we're in the project root directory
+project_root = File.expand_path("..", __dir__)
+Dir.chdir(project_root)
+
 puts "=" * 60
 puts "RBoard Static Analyzer - Comprehensive Test Suite"
+puts "Running from: #{Dir.pwd}"
 puts "=" * 60
 
 success_count = 0
