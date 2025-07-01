@@ -1,5 +1,5 @@
 # Test I2C validator specifically
-require_relative '../lib/rboard_analyzer'
+require_relative '../lib/rboard_hardware_analyzer'
 
 def test_scenario(name, &block)
   puts "\n" + "="*60

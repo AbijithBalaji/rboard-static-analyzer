@@ -1,5 +1,5 @@
-# Test UART validator specifically
-require_relative '../lib/rboard_analyzer'
+# Test UART validator specifically  
+require_relative '../lib/rboard_hardware_analyzer'
 
 def test_scenario(name, &block)
   puts "\n" + "="*60

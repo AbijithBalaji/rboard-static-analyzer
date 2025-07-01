@@ -3,7 +3,7 @@
 # RBoard Static Analyzer - Main Entry Point
 # Hardware-accurate static analysis based on actual RBoard firmware
 
-require_relative 'lib/rboard_analyzer'
+require_relative 'lib/rboard_hardware_analyzer'
 
 def show_usage
   puts "RBoard Static Analyzer - Hardware Validation for Embedded Ruby"
